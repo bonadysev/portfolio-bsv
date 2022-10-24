@@ -1,0 +1,47 @@
+.wrap {
+    background-color: darkkhaki;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    height: 300px;
+}
+
+.wrap h2 {
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+    display: inline;
+}
+
+.wrap h3 {
+    /*padding: 0;*/
+    /*margin: 0;*/
+    background-color: lightgray;
+    display: inline;
+
+}
+
+.wrap2 {
+    border: 1px solid yellow;
+    width: 60%;
+}
+
+.container {
+    display: flex;
+    border: 1px solid orangered;
+    justify-content: space-between;
+}
+
+.item {
+    border: 1px solid darkblue;
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    align-items: center;
+}
+
+.contactChild {
+    margin: 10px 0px 10px 20px;
+}
